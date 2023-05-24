@@ -57,7 +57,7 @@ void hMain()
                 hMot3.rotAbs(0, 250, false, INFINITE); // starting position, neutral
                 hMot4.rotAbs(0, 250, false, INFINITE); // starting position, neutral
 
-                sys.delay(1000);
+                sys.delay(800);
                 hMot1.rotAbs(0, 200, false, INFINITE); // clutch disengaged
                 toBeChanged = false;
                 break;
@@ -71,7 +71,7 @@ void hMain()
                 hMot3.rotAbs(0, 250, false, INFINITE);   // starting position, neutral
                 hMot4.rotAbs(0, 250, false, INFINITE);   // starting position, neutral
 
-                sys.delay(1000);
+                sys.delay(800);
                 hMot1.rotAbs(0, 200, false, INFINITE); // clutch disengaged
                 toBeChanged = false;
                 break;
@@ -85,7 +85,7 @@ void hMain()
                 hMot3.rotAbs(0, 250, false, INFINITE);  // starting position, neutral
                 hMot4.rotAbs(0, 250, false, INFINITE);  // starting position, neutral
 
-                sys.delay(1000);
+                sys.delay(800);
                 hMot1.rotAbs(0, 200, false, INFINITE); // clutch disengaged
                 toBeChanged = false;
                 break;
@@ -99,7 +99,7 @@ void hMain()
                 hMot3.rotRel(-60, 250, false, INFINITE); // starting position, neutral
                 hMot4.rotAbs(0, 250, false, INFINITE);   // starting position, neutral
 
-                sys.delay(1000);
+                sys.delay(800);
                 hMot1.rotAbs(0, 200, false, INFINITE); // clutch disengaged
                 toBeChanged = false;
                 break;
@@ -113,7 +113,7 @@ void hMain()
                 hMot3.rotRel(60, 250, false, INFINITE); // starting position, neutral
                 hMot4.rotAbs(0, 250, false, INFINITE);  // starting position, neutral
 
-                sys.delay(1000);
+                sys.delay(800);
                 hMot1.rotAbs(0, 200, false, INFINITE); // clutch disengaged
                 toBeChanged = false;
                 break;
@@ -127,7 +127,7 @@ void hMain()
                 hMot4.rotAbs(0, 250, false, INFINITE);  // starting position, neutral
                 hMot4.rotRel(60, 250, false, INFINITE); // starting position, neutral
 
-                sys.delay(1000);
+                sys.delay(800);
                 hMot1.rotAbs(0, 200, false, INFINITE); // clutch disengaged
                 toBeChanged = false;
                 break;
@@ -141,14 +141,14 @@ void hMain()
                 hMot4.rotAbs(0, 250, false, INFINITE);   // starting position, neutral
                 hMot4.rotRel(-60, 250, false, INFINITE); // starting position, neutral
 
-                sys.delay(1000);
+                sys.delay(800);
                 hMot1.rotAbs(0, 200, false, INFINITE); // clutch disengaged
                 toBeChanged = false;
                 break;
             }
         }
         // hMot3.rotAbs(0, 250, false, INFINITE);
-        // sys.delay(1000);
+        // sys.delay(800);
         // hMot3.rotRel(-90, 400, false, INFINITE);
         printf("test control systems %d\r\n", (int)sys.getRefTime());
     }
